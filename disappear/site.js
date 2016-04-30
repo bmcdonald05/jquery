@@ -1,12 +1,14 @@
 
 
-$( "button" ).click(function() {
-  $( "p" ).hide(1000).delay( 2000 );
-});
+// $( "button" ).click(function() {
+//   $( "p" ).hide(1000).delay( 9000 );
+// });
 
-// $("p").hide(function() {
-// 	$(".p").delay(5000)
-// 	});
+$( document ).ready(function() {
+	$("p").delay( 4000 ).hide('slow')
+	});
 
-
+$(".buttons").click(function() {
+	$("div").removeClass( "cant-see-me" );
+	});
 

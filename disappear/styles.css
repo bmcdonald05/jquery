@@ -1,0 +1,16 @@
+.square {
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin: 25px;
+}
+.circle {
+	width: 100px;
+	height: 100px;
+	background: green;
+	border-radius: 50px;
+	margin: 25px;
+}
+.cant-see-me{
+	display: none;
+}
